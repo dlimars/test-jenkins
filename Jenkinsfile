@@ -1,7 +1,7 @@
 pipeline {
   agent {
     docker {
-      image 'composer/composer:4.8.5'
+      image 'dockette/php56'
     }
     
   }
