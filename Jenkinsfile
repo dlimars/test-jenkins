@@ -1,7 +1,7 @@
 pipeline {
   agent {
     docker {
-      image 'nubs/phpunit'
+      image 'composer/composer:4.8.5'
     }
     
   }
